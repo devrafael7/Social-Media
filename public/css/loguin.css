@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(to right,#051f20,#051f20,#051f20,#051f20,#051f20,#307b6d,#051f20,#051f20,#051f20,#051f20,#051f20);
+    background-size: 300% 300%;
+    animation: mudarBackground 12s infinite;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+  @keyframes mudarBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.backcaixa{
+    display: flex;
+    position: absolute;
+}
+.backdivs{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+
+.cubeback{
+
+    width: 77px;
+    height: 75px;
+    background-color: #051f20;
+    /*background-color: white;*/
+    margin: 1.8px;
+    transition: 3s ease-in-out;
+    box-shadow: 1px 1px 10px 2px #051f20;
+
+}
+
+.cubeback:hover{
+    background-color: #083132;
+    transition: 0.1s ease-in;
+
+
+}
+
+.caixaLoguin{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 30%;
+      height: auto;
+      background-color: rgba(0, 0, 0, 0.066);
+      backdrop-filter: blur(5px);
+      border: transparent solid 2px;
+      box-shadow: 1px 1px 10px 10px #245c528e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
+
+
+.caixaLoguin label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+  }
+.caixaLoguin h1{
+    text-align: center;
+    margin: 15px;
+    color: white;
+
+}
+
+
+.caixaLoguin button {
+    
+    background-color: #1cd6b4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+}
+
+.caixaLoguin button:hover {
+    background-color: #169c84;
+}
+
+.caixaLoguin p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.caixaLoguin a {
+    color: #33a993;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.caixaLoguin a:hover {
+    color: #1cd6b4;
+    
+}
+.caixaLoguin input{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+.caixaLoguin input:focus {
+    border-bottom: 2px solid #1cd6b4;
+  }
+
+.keySenha{
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+}
+.diviconsFaceGoogle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.diviconsFaceGoogle p {
+    position: absolute;
+    text-align: left;
+    left: 20%;
+}
+*/
+.iconFaceGoogle{
+    width: 34px;
+    height: 34px;
+    margin: 15px;
+}
+.divbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 800px){
+    .caixaLoguin{
+        width: 400px;
+        
+    }
+
+}
+
+@media (min-width:801px) and (max-width:1024px){
+    .caixaLoguin{
+        width: 500px;
+        
+    }
+    
+
+}
