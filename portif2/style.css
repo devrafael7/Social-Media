@@ -1,0 +1,107 @@
+*{ 
+    
+}
+
+
+h1{ 
+    width: 100%;
+    color: rgb(184, 184, 184);
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 100px;
+    text-align: center;
+    animation-duration: 2s ease;
+
+}
+h1:hover{ 
+
+    
+
+}
+
+div{
+    box-sizing: content-box;
+    padding: 5px;
+    
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 20px;
+    width: 100%;
+    height: 180px;
+    backdrop-filter: blur(2px);
+    
+       
+}
+
+
+
+h3{ margin-top: 100px;
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+    text-align: center;
+    
+}
+p{ 
+    
+    font-size: 20px;
+    margin: 50px;
+    color: rgb(184, 184, 184);
+    
+}
+body{
+    text-align: center;
+    height: 150vh; 
+    margin: 0;  
+    background-image: url(images/wet-monstera-deliciosa-plant-leaves-garden.jpg);
+    background-size: cover;
+    
+    font-family: 'Nunito Suns', sans-serif;
+}  
+
+footer{
+    color:rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 80vh;
+    
+}
+
+ul{
+    
+    margin-top: 200px;
+    padding: 0;
+    
+    & li{
+        display: inline;
+        color: aliceblue;
+        list-style-type: none;
+        padding: 0;
+        margin: 20px;
+    }
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    transition: 0.5s;
+    opacity: 0.5;
+    margin-top: 30px;
+
+    
+    & svg{
+        width: 30px;
+        
+    }
+}
+button:hover{ 
+    opacity: 1;
+    
+    
+    
+    
+    
+
+}
+    

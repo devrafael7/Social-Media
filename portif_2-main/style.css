@@ -1,0 +1,121 @@
+*{ 
+    
+}
+
+
+.Th1{ 
+    width: 100%;
+    color: rgb(184, 184, 184);
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 100px;
+    text-align: center;
+    animation-duration: 2s ease;
+
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGd0bXVkdXN5cWN4eDh3OG8wcHRwOWpodzd5cnNkcGZpb2xvMmVsdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VI2HFrWlOZ8pAz3knb/giphy-downsized-large.gif);
+    -webkit-background-clip: text; 
+    background-clip: text;  
+    color: transparent;    
+
+}
+
+
+div{
+    box-sizing: content-box;
+    padding: 5px;
+    
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 20px;
+    width: 100%;
+    height: 180px;
+    backdrop-filter: blur(2px);
+    
+       
+}
+
+
+
+h3{ margin-top: 100px;
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+    text-align: center;
+    
+}
+p{ 
+    
+    font-size: 20px;
+    margin: 50px;
+    color: rgb(184, 184, 184);
+    
+}
+body{
+    text-align: center;
+    height: 150vh; 
+    margin: 0;  
+    background-image: url(images/wet-monstera-deliciosa-plant-leaves-garden.jpg);
+    background-size: cover;
+    
+    font-family: 'Nunito Suns', sans-serif;
+}  
+
+footer{
+    color:rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 80vh;
+    
+}
+
+ul{
+    
+    margin-top: 200px;
+    padding: 0;
+    
+    & li{
+        display: inline;
+        color: aliceblue;
+        list-style-type: none;
+        padding: 0;
+        margin: 20px;
+    }
+}
+button{
+    border: solid 2px transparent;
+    cursor: pointer;
+    background-color: transparent;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    transition: 0.5s;
+    opacity: 0.5;
+    margin-top: 30px;
+
+    
+    & svg{
+        width: 30px;
+        
+    }
+}
+button:hover{ 
+    opacity: 1;
+    
+
+}
+.Smais{
+    cursor: pointer;
+    font-size: 30px;
+    opacity: 1;
+    width: 300px;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    background-size: cover;
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGd0bXVkdXN5cWN4eDh3OG8wcHRwOWpodzd5cnNkcGZpb2xvMmVsdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VI2HFrWlOZ8pAz3knb/giphy-downsized-large.gif); 
+    transition: 1s ease;
+    -webkit-background-clip: text; 
+    background-clip: text;  
+    color: transparent;
+
+
+}
