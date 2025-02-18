@@ -8,6 +8,8 @@
     }
     body{
       height: 100vh;
+      background-image: url(/Social-Media/public/Images/mont-blanc-massif-3840x2160-21326.jpg);
+      background-size: cover;
     }
     .container {
       width: 100%;
@@ -30,7 +32,8 @@
       height: 450px;
       left: 0;
       transform: translateX(20%);
-      background-color: red;
+      background-color: rgba(0, 0, 0, 0.344);
+      backdrop-filter: blur(2px);
     }
 
     .div-2 {
@@ -39,9 +42,13 @@
       right: 0;
       top: 19%;
       transform: translateX(-140%);
-      background-image: url(https://i.giphy.com/3osxYzuMvUJJcqzND2.webp);
-      background-size: cover;
-      background-repeat: no-repeat;
+      background-color: aliceblue;
+      text-align: center;
+      display: grid;
+    }
+    .div-2 h1,h3{
+      color: #2980b9;
+      text-align: center;
     }
 
     .div.move-left {
@@ -53,7 +60,7 @@
     }
 
     .box-Login{
-      background-color: red;
+      background-color: transparent;
       height: 100%;
       width: 50%;
       text-align: center;
@@ -71,7 +78,7 @@
 
     }
     .box-cadastro{
-      background-color: red;
+      background-color: transparent;
       height: 100%;
       width: 100%;
       text-align: center;
@@ -131,15 +138,51 @@
     margin: 15px;
     }
     a {
-    color: #2980b9;
+    color: #fff;
     transition: color 0.3s ease;
     text-decoration: none;
   }
 
     a:hover {
-    color: #205f89;
+    color: #892520;
     
   } 
+  input::placeholder{
+    color: rgb(128, 190, 244);
+  }
+  .divpaiInfo{
+    display: flex;
+  }
+  .videoinfo1{ 
+    background-image: url(https://video-public.canva.com/VAGVNYbxepc/v/cdc7969ae7.gif);
+    background-size: cover;
+    width: 140px;
+    height: 130px;
+    float: right; 
+    margin: 10px;
+  }
+  .videoinfo2{ 
+    background-image: url(https://video-public.canva.com/VAGTnt0ttck/v/f3f896e062.gif);
+    background-size: cover;
+    width: 140px;
+    height: 170px;
+    margin: 10px;
+  }
+  .videoinfo4{
+    background-image: url(https://video-public.canva.com/VAFZTFLb2_s/v/dc2a273083.gif);
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
 
+  }
+  .videoinfo4{
+    background-image: url(https://video-public.canva.com/VAFlsZrk1jI/v/64e0165c3e.gif);
+    background-size: cover;
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+
+  }
   
 
