@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Social-Media/public/css/login2.css">
+  <title>Login2</title>
+
+</head>
+<body>
+
+
+  <div class="container">
+
+        <div class="div div-1">
+          <div class="box-Login">
+            <h1>Login</h1>
+
+            <form action="/login" method="POST">
+              
+              
+              <label for="username">Email:</label><i id="toggle-email">
+                  <!-- codificar o sistema de completar automaticamente para o usuário o email, exemplo: @gmail.com -->
+              <input type="text" id="username" name="username" required><button id="iconCompleteGmail" class="btn-icon"><i><img src="/Social-Media/public/icons/alternate_email_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.png" alt="" class="keySenha"></i></button>
+              <br><br>
+              
+              <label for="password">Senha:</label>
+              <!-- codificar o sistema de ocultar e desocultar a senha -->
+              <input type="password" id="senha" name="password" required><button id="iconVisualizerSenha" class="btn-icon"><i><img src="/Social-Media/public/icons/visibility_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.png" alt="" class="keySenha"></i></button>
+              <br><br>
+              <a href="">Esqueceu a senha?</a>
+              <br><br>
+
+              <div class="diviconsFaceGoogle">
+                  <a href="" id="caminhoGoogle"><i><img src="/Social-Media/public/icons/google_13170545.png" alt="" class="iconFaceGoogle"></i></a>
+                  <a href="" id="caminhoFacebook"><i><img src="/Social-Media/public/icons/communication_15047435.png" alt="" class="iconFaceGoogle"></i></a>
+              </div>
+              <br><br>
+              <div class="divbtn">
+                  <button type="submit" class="btn">Entrar</button>
+              </div>
+              <br><br>
+              
+              <p>Não tem uma conta?  <button class=" btn btn-1">Cadastre-se</button></p>
+              
+            </form>
+          </div>
+
+
+          <div class="box-cadastro">
+            <h1>Cadastre-se</h1>
+            <form action="#" method="post">
+              
+              <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required> <button id="iconCompleteGmail" class="btn-icon"><i><img src="/Social-Media/public/icons/alternate_email_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.png" alt="" class="keySenha"></i></button>
+              </div>
+
+              <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required> <button id="iconVisualizerSenha" class="btn-icon"><i><img src="/Social-Media/public/icons/visibility_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.png" alt="" class="keySenha"></i></button>
+              </div>
+              <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="confirmpassword" name="password" placeholder="Confirme sua senha" required> <button id="iconVisualizerSenha" class="btn-icon"><i><img src="/Social-Media/public/icons/visibility_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.png" alt="" class="keySenha"></i></button>
+              </div>
+
+              <button type="submit" class="btn">Cadastrar</button>
+              <br><br>
+              <p>Já possui uma conta? Faça login</p>
+            </form>
+            <button class="btn btn-2">Login</button>
+
+
+          </div>
+        </div>
+
+        <div class="div div-2">
+          
+        </div>
+      
+
+  </div>
+
+  <script src="/Social-Media/public/js/login2.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
